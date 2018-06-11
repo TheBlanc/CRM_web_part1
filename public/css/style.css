@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+/* nav interface  */
+
 body {
     color: #f4f4f4;
     font-family: sans-serif;
@@ -104,4 +106,33 @@ p.options {
   font-size: 0.8em;
   text-align: center;
   padding: 19px 0px;
+}
+
+/* About section  */
+.about {
+  text-align: center;
+  color: black;
+  line-height: 2em
+}
+
+.about p {
+  font-size: 1.1em;
+}
+
+.about em {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* home section */
+
+.home {
+  text-align: center;
+  color: black;
+  line-height: 2em
+}
+
+.home em {
+  font-size: 2em;
+  font-weight: bold;
 }
