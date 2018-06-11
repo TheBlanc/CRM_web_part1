@@ -1,0 +1,100 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+    color: #f4f4f4;
+    font-family: sans-serif;
+    margin: 0 10px
+}
+
+header {
+  background-color: #3c3c3c;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+  padding: 9px 0px;
+}
+
+nav li {
+  background-color: #cbcbcb;
+  color: #f4f4f4;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 4px 0;
+  margin: 1px 0;
+  font-weight: bold;
+}
+   nav li:hover {
+    background-color: #838383;
+  }
+  nav li:active {
+    background-color: #595959;
+  }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Contact section */
+
+.contacts {
+  margin: 0 40px;
+}
+
+.contacts h2 {
+  background-color: #ff7c6a;
+  color: black;
+  font-family: sans-serif;
+  font-size: 1em;
+  padding: 10px;
+}
+
+.contacts em {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.contact-card {
+  margin: 10px 0px
+}
+
+.contacts li {
+  background-color: #44ffdd;
+  color: black;
+  padding: 13px 20px;
+  margin: 1px 0;
+  line-height: 21px;}
+
+.note {
+  font-size: 14px;
+}
+
+.contacts h3 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.contacts a {
+  text-decoration: underline;
+  color: blue;
+  font-size: 10px;
+}
+
+p.options {
+  display: inline-block;
+  font-size: 12px;
+}
+
+
+
+.copy {
+  background-color: #3c3c3c;
+  color: #f4f4f4;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  padding: 19px 0px;
+}

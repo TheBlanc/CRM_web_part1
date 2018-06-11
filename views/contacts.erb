@@ -1,17 +1,14 @@
-<h1>CONTACTS</h1>
-<ul>
-  <% @contacts.each do |contact| %>
-  <li>
-    <h3><%= contact.full_name %></h3>
-    <p><%= contact.email %></p>
-    <p><%= contact.note %></p>
-  </li>
-  <% end %>
-</ul>
-
-<nav>
-  <ul>
-    <li><a href="http://localhost:4567/"><h2>HOME</h2></a></li>
-    <li><a href="http://localhost:4567/about"><h2>ABOUT</h2></a></li>
-  </ul>
-</nav>
+<section class="contacts">
+  <h2 class="contact-card">There are <em><%= @number_of_contacts %></em> contacts</h2>
+    <ul>
+      <% @contacts.each do |contact| %>
+      <div class="contact-card">
+        <li>
+          <h3 class="contact-name"><%= contact.full_name %> (<%= contact.id %>)</h3>
+          <p class="note"><%= contact.note %></p>
+          <p class="options"><a href="#">Edit</a> | <a href="#">Delete</a></p>
+        </li>
+      </div>
+      <% end %>
+    </ul>
+</section>
