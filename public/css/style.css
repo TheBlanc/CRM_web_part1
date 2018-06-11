@@ -52,6 +52,10 @@ a {
   padding: 10px;
 }
 
+.contacts .contact-card li:hover {
+  background-color: #ff7c6a;
+}
+
 .contacts em {
   text-decoration: underline;
   font-weight: bold;
@@ -61,26 +65,29 @@ a {
   margin: 10px 0px
 }
 
-.contacts li {
+.contact-card li {
   background-color: #44ffdd;
   color: black;
   padding: 13px 20px;
   margin: 1px 0;
-  line-height: 21px;}
+  line-height: 21px;
+  display: block;
+}
 
 .note {
   font-size: 14px;
 }
 
-.contacts h3 {
+.contact-card h3 {
   font-size: 1em;
   font-weight: bold;
 }
 
-.contacts a {
+.options a {
   text-decoration: underline;
   color: blue;
   font-size: 10px;
+  display: inline-block;
 }
 
 p.options {
