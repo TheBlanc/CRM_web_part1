@@ -164,3 +164,11 @@ p.options {
   font-size: 2em;
   font-weight: bold;
 }
+
+/* delete page */
+
+.select {
+  line-height: 1.3em;
+  margin: 10px 0px;
+  padding-left: 10px
+}
