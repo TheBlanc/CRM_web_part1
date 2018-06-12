@@ -1,7 +1,8 @@
 <div class="contact-card">
   <li>
-    <h3><%= @contact.full_name %> (<%= @contact.email %>)</h3>
+    <h2><%= @contact.full_name %></h2>
+    <h3><%= @contact.email %></h3>
     <p class="note"><%= @contact.note %></p>
-    <p class="options"><a href="#">Edit</a> | <a href="#">Delete</a></p>
+    <p class="options"><a href="/contacts/<%= @contact.id %>/edit">Edit</a> | <a href="#">Delete</a></p>
   </li>
 </div>
